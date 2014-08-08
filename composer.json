@@ -1,8 +1,10 @@
 {
     "name": "darkunz/yii2-sms",
     "description": "SMS Component for Yii2",
+    "type": "yii2-extension",
     "require": {
-        "twilio/sdk": "*"
+        "twilio/sdk": "*",
+        "yiisoft/yii2": "*",
     },
     "authors": [
         {
@@ -10,5 +12,8 @@
             "email": "darwin.medillo@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": { "darkunz\\yii2sms\\": "" }
+    }
 }
