@@ -1,0 +1,14 @@
+{
+    "name": "darkunz/yii2-sms",
+    "description": "SMS Component for Yii2",
+    "require": {
+        "twilio/sdk": "*"
+    },
+    "authors": [
+        {
+            "name": "darkunz",
+            "email": "darwin.medillo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
