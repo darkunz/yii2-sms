@@ -4,7 +4,7 @@
     "type": "yii2-extension",
     "require": {
         "twilio/sdk": "*",
-        "yiisoft/yii2": "*",
+        "yiisoft/yii2": "*"
     },
     "authors": [
         {
