@@ -44,7 +44,7 @@ class Twilio extends Component implements GatewayInterface
     public function send($recipient, $message, $options = []) {
 
         if ($recipient instanceof RecipientInterface) {
-            $recipient = $recipient->getPhoneNumber();
+            $recipient = $recipient->getMobileNumber();
         }
 
         return $this->client->account->messages->sendMessage($this->number, $recipient, $message);
