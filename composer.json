@@ -2,6 +2,8 @@
     "name": "darkunz/yii2-sms",
     "description": "SMS Component for Yii2",
     "type": "yii2-extension",
+    "license": "MIT",
+    "keywords": ["yii2", "sms", "yii2-sms"],
     "require": {
         "twilio/sdk": "*",
         "yiisoft/yii2": "*"
