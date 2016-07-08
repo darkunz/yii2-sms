@@ -14,7 +14,7 @@ return [
         ...
         'sms' => [
             'class' => 'darkunz\yii2sms\Twilio',
-            'sid' => ''
+            'sid' => '',
             'token' => '',
             'number' => '',
         ]
